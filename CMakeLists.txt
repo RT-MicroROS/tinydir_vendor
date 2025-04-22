@@ -36,7 +36,7 @@ endif()
 include(ExternalProject)
 externalproject_add(tinydir-1.2.4
   PREFIX tinydir-1.2.4
-  URL https://github.com/cxong/tinydir/archive/1.2.4.tar.gz
+  URL https://github.com/RT-MicroROS/tinydir/archive/1.2.4.tar.gz
   URL_MD5 15978c5f498e2ff3d26a9975c734cda0
   CMAKE_ARGS
     -DCMAKE_INSTALL_PREFIX=${CMAKE_CURRENT_BINARY_DIR}/${PROJECT_NAME}_install
